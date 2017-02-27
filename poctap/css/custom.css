@@ -1,0 +1,319 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+@font-face {
+    font-family:AzGothamMedium;
+    src:url(../fonts/AzGothamMedium.otf);
+}
+#header{
+    background:#F25222;
+    min-height: 650px;
+    width: 100%;
+    background-image: url(../img/map.png);
+}
+.head-top{
+    max-height: 150px;
+    padding:15px 0;
+}
+.logo{
+    margin-top: 10px;
+    padding-right: 30px;
+}
+.call{
+    margin-top: 15px;
+    padding-left: 30px;
+    border-left: 1px solid white;
+}
+.call img{
+    margin-top: 3px;
+    float: left;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.call span{
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 21.6px;
+    color: white;
+
+}
+.lang{
+    position: relative;
+}
+.lang select{
+    position: absolute;
+    left: 17px;
+    top: 17px;
+    width: 55px;
+    background: transparent;
+    padding-left: 5px;
+    border: none;
+    border-color: transparent;
+    transition: all 0.1s ease-in-out;
+    color: white;
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu{
+    font-family: AzGothamMedium;
+    font-size: 14px;
+    color: white;
+    padding-top: 5px;
+}
+.menu li{
+    float:left;
+}
+.counter-li{
+    margin-top: 3px;
+    margin-right: 25px;
+    list-style: none;
+    font-weight: bold;
+}
+.counter-li p{
+    float: left;
+    position: relative;
+    top: 12px;
+    font-size: 12px;
+    line-height: 1.1;
+    text-align: right;
+    right: 10px;
+    max-width: 150px;
+    margin: 0 0 10px;
+}
+.counter{
+    font-family: AzGothamMedium;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 4px;
+    min-width: 50px;
+    float: left;
+}
+.search-button{
+    background-color: #fbc222;
+    font-family: AzGothamMedium;
+    font-size: 14px;
+    padding: 18px 20px;
+    border-radius: 4px;
+    transition: all 0.1s ease-in-out;
+    position: relative;
+    top: 17px;
+    text-decoration: none;
+    color: black;
+}
+.search-button img{
+    vertical-align: middle;
+}
+.search-button:hover{
+    background-color: #f0b204;
+}
+.head-bottom{
+    padding:100px 0;
+}
+.head-bottom h1{
+    font-family: AzGothamMedium;
+    font-size: 34px;
+    color: white;
+    font-weight: 500;
+    line-height: 1.1;
+    padding-bottom:10px;
+}
+.head-bottom p{
+    font-family: Segoe UI;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    margin: 0 0 12px;
+}
+.head-bottom .col-7 p i{
+    padding:3px;
+    color:#fbc222;
+    font-size: 16px;
+}
+.sened-axtar{
+    padding:35px 34px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+}
+.sened-axtar h1{
+    font-family: AzGothamMedium;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 20px;
+}
+.sened-axtar p{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 5px;
+    color: #333;
+    line-height: 15px;
+    margin: 0 0 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.sened-axtar p i{
+    padding-right:5px;
+    color:#fbc222;
+    float: left;
+    font-size: 14px;
+}
+.sened-axtar select{
+    color: black;
+    width: 280px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #d7d7d7;
+}
+.axtar{
+    background-color: #fbc222;
+    font-family: AzGothamMedium;
+    font-size: 17px;
+    padding: 20px 117px;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-top: 25px;
+}
+.axtar:hover{
+    background-color: #f0b204;
+}
+.head-bottom .col-7{
+    padding-top: 12px;
+}
+/*contain*/
+#contain{
+    background-color: #F5F5F5;
+    padding:55px 0;
+}
+#contain h1{
+    padding-bottom: 50px;
+    color: #191919;
+    font-family: AzGothamMedium;
+    font-size: 26px;
+    text-align: center;
+}
+.people>div{
+    padding:50px 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.11);
+    transition: all .1s ease-in-out;
+}
+.people>div img{
+    margin-right: 20px;
+    vertical-align: middle;
+    padding-top: 8px;
+}
+.people>div:hover{
+    box-shadow: 0px 0px 10px 0px rgba(242, 82, 34, 0.51);
+}
+.people h2{
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 18px;
+    color: #272727;
+}
+.people p{
+    font-family: Segoe UI;
+    font-size: 14px;
+    color: black;
+}
+.people{
+    margin-bottom: 25px;
+}
+.daha-cox{
+    background-color: transparent;
+    line-height: 40px;
+    font-family: AzGothamMedium;
+    font-size: 14px;
+    color: #1a1919;
+    border: 1px solid #f25222;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    padding:10px 40px;
+    text-decoration: none;
+}
+.daha-cox:hover{
+    background-color: #f25222;
+    color: white;
+    border: 1px solid white;
+}
+.more{
+    text-align: center;
+}
+/*footer*/
+#footer{
+    background-color: #FFFFFF;
+    padding: 70px 0;
+}
+.footer-top{
+    padding-bottom: 80px;
+}
+.footer-top>div{
+    text-align: center;
+    height: auto;
+}
+.footer-top>div img{
+    padding-bottom: 45px;
+}
+.footer-top>div p{
+    font-family: AzGothamMedium;
+    font-size: 14px;
+    text-align: center;
+    color: #1a1919;
+}
+.footer-bottom{
+    border-top: 1px solid #cecece;
+    padding-top: 80px;
+}
+.footer-bottom>div:first-child img{
+    padding-right: 30px;
+}
+.footer-bottom>div:last-child{
+    text-align: right;
+}
+.footer-bottom>div:last-child ul li{
+    font-family: Segoe UI;
+    font-size: 16px;
+    color: #313131;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 30px;
+}
+.footer-bottom>div:last-child ul li img{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.footer-bottom>div:last-child ul li p{
+    float: right;
+}
+    @media only screen and (min-width:1200px) {
+        .col-3{
+            width:23.5%;
+        }
+    }
+@media only screen and (min-width:480px) and (max-width:1200px){
+    .container{
+        width: 100%;
+        padding:0 30px;
+    }
+    .col-m-6{
+        width:49%;
+    }
+}
+@media only screen and (max-width:480px){
+    .container{
+        width: 100%;
+        padding:0 30px;
+    }
+    .col-3{
+        width: 100%;
+
+    }
+}
